@@ -71,58 +71,78 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
         private QuestionBank generateQuestions(){
             Question question1 = new Question(
-                    "Who is the creator of Android?",
+                    "Quel est le nom de l’hybride produit par un tigre mâle et une lionne ?",
                     Arrays.asList(
-                            "Andy Rubin",
-                            "Steve Wozniak",
-                            "Jake Wharton",
-                            "Paul Smith"
+                            "Tigron",
+                            "Ligre",
+                            "Liard",
+                            "Jaglion"
                     ),
                     0
             );
 
             Question question2 = new Question(
-                    "When did the first man land on the moon?",
+                    "Quel est le mot généralement utilisé pour désigner un groupe de lions ?",
                     Arrays.asList(
-                            "1958",
-                            "1962",
-                            "1967",
-                            "1969"
+                            "une meute",
+                            "un troupeau",
+                            "une troupe",
+                            "un essaim"
                     ),
                     3
             );
 
             Question question3 = new Question(
-                    "What is the house number of The Simpsons?",
+                    "Quelle chimère est représentée par un corps de lion ?",
                     Arrays.asList(
-                            "42",
-                            "101",
-                            "666",
-                            "742"
+                            "Le Minotaure",
+                            "Le Sphinx",
+                            "L'Hydre",
+                            "Le Mercolion"
                     ),
-                    3
+                    1
             );
             Question question4 = new Question(
-                    "Qui est le plus beau ?",
+                    "Quel est le poids moyen d’un lion d’Afrique ?",
                     Arrays.asList(
-                            "Nenem",
-                            "Pierre",
-                            "Paul",
-                            "Jacques"
+                            "130 kg",
+                            "160 kg",
+                            "190 kg",
+                            "225 kg"
                     ),
-                    0
+                    1
             );
             Question question5 = new Question(
-                    "Qui est la plus belle",
+                    "Quelle est la quantité de viande que mange un lion par jour en moyenne ?",
                     Arrays.asList(
-                            "Nenem",
-                            "Ta",
-                            "Grand",
-                            "Mère"
+                            "3 kg",
+                            "7 kg",
+                            "11 kg",
+                            "15 kg"
+                    ),
+                    1
+            );
+            Question question6 = new Question(
+                    "Quel drapeau régional français est composé d’un lion avec une couronne ?",
+                    Arrays.asList(
+                            "La Franche-Comté",
+                            "Le Poitou",
+                            "Le Dauphiné",
+                            "La Normandie"
                     ),
                     0
             );
-            return new QuestionBank(Arrays.asList(question1, question2, question3, question4, question5));
+            Question question7 = new Question(
+                    "Dans quel pays “la danse du lion” est un art à part entière ?",
+                    Arrays.asList(
+                            "L'Afrique du Sud",
+                            "Le Kazakhstan",
+                            "La Chine",
+                            "La Corée du Sud"
+                    ),
+                    2
+            );
+            return new QuestionBank(Arrays.asList(question1, question2, question3, question4, question5, question6, question7));
         }
 
 
